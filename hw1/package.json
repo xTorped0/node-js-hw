@@ -1,0 +1,12 @@
+{
+  "name": "hw1",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "http": "node src/server.js",
+    "https": "node src/https-server.js"
+  }
+}
