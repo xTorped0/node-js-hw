@@ -1,0 +1,11 @@
+# repository-level junk
+node_modules/
+.env
+.env.*
+*.log
+npm-debug.log*
+.DS_Store
+
+# local Docker build artifacts
+hw2/node_modules/
+.hw2-build/
