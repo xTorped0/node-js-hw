@@ -1,0 +1,12 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      NODE_ENV: development
+    volumes:
+      - ./src:/app/src
+    command: ["npm", "run", "dev"]
+    ports:
+      - "3000:3000"
